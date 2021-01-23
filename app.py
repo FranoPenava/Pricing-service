@@ -5,7 +5,7 @@ from blueprints.stores import store_blueprint
 from blueprints.users import user_blueprint
 from libs.mailgun import Mailgun
 from dotenv import load_dotenv
-
+# Bla bla
 app = Flask(__name__)
 
 app.secret_key = "1234"
@@ -23,3 +23,4 @@ app.register_blueprint(user_blueprint)
 
 if __name__ == "__main__":
     app.run(debug=True)
+
